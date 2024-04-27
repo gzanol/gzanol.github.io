@@ -4,7 +4,7 @@
 
 body{
     width: 100%;
-    background-image: url("../img/black.jpg");
+    background-image: url("black.jpg");
      }
      header{
         width: 90%;
@@ -110,7 +110,7 @@ p{
 }
 @media (max-width: 640px) {
     body{
-        background-image: url("../img/fondo.jpg");
+        background-image: url("fondo.jpg");
      } 
    
     .navMio{
