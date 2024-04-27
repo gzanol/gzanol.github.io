@@ -109,7 +109,7 @@ p{
        background-image: url("fondo.jpg");
     } 
     .navMio{
-        background-color: white !important;
+        background-color:  RGBA(234, 234, 234, 0.5) !important;
     }
     .navMio a{
         color: black;
