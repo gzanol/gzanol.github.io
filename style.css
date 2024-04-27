@@ -131,7 +131,7 @@ p{
         color: black;
     }
     .fondonegro{
-        display: none;
+        display: none !important;
     }
     .navMio a{
         color: black; 
@@ -144,6 +144,6 @@ p{
 @media (min-width: 640px) {
 
     .fondoblanco{
-        display: none;
+        display: none !important;
     }
 }
