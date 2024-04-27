@@ -4,7 +4,7 @@
 
 body{
     width: 100%;
-    background-color: black;
+    background-image: url("black.jpg");
      }
    
 
@@ -16,9 +16,7 @@ body{
         max-width: 1200px;
         display: flex;
         flex-wrap: wrap;
-
     }
-
 h1{
         color: white;
     }
@@ -104,12 +102,12 @@ p{
 }
 
 @media (max-width: 640px) {
-
     body{
-       background-image: url("fondo.jpg");
-    } 
+        background-image: url("fondo.jpg");
+     } 
+   
     .navMio{
-        background-color:  RGBA(234, 234, 234, 0.5) !important;
+        background-color: white !important;
     }
     .navMio a{
         color: black;
@@ -132,5 +130,9 @@ p{
 
     .fondoblanco{
         display: none;
+    }
+    .fa-2x{
+        color: white;
+        margin-right: 30px;
     }
 }
